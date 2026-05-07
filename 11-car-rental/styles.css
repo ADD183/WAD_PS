@@ -1,0 +1,64 @@
+:root {
+  --nav: #0f172a;
+  --hero: linear-gradient(135deg, #f59e0b, #f97316);
+  --bg: #fff7ed;
+  --card: #ffffff;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  background: var(--bg);
+  color: #111827;
+}
+
+.rental-nav {
+  background: var(--nav);
+}
+
+.hero {
+  background: var(--hero);
+  color: #1f2937;
+  padding: 3.5rem 0 3rem;
+}
+
+.section-title {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.15rem;
+}
+
+.car-card {
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  animation: slideUp 0.8s ease-out forwards;
+}
+
+.car-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.offer-banner {
+  background: #ffedd5;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.rental-footer {
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 1.5rem 0;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

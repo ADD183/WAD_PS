@@ -1,0 +1,99 @@
+:root {
+  --nav: #0c2c42;
+  --hero: linear-gradient(135deg, #f2c57c, #f29e4c);
+  --accent: #0a9396;
+  --ink: #1b1f23;
+  --card: #16324f;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--ink);
+  background: #f8f7f2;
+}
+
+.city-nav {
+  background: var(--nav);
+}
+
+.hero {
+  background: var(--hero);
+  color: #1a1a1a;
+  padding: 5rem 0 4rem;
+}
+
+.hero-title {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.2rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-size: 0.85rem;
+}
+
+.section-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.landmark-item {
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-weight: 600;
+}
+
+.landmark-item.fort {
+  color: #b45309;
+  font-family: "Playfair Display", serif;
+}
+
+.landmark-item.shinde {
+  color: #0f766e;
+  font-family: "Raleway", sans-serif;
+}
+
+.landmark-item.temple {
+  color: #7c2d12;
+  font-family: "Poppins", sans-serif;
+}
+
+.landmark-item.museum {
+  color: #1d4ed8;
+  font-family: "Playfair Display", serif;
+}
+
+.landmark-item.hills {
+  color: #166534;
+  font-family: "Raleway", sans-serif;
+}
+
+.landmark-item.lake {
+  color: #0f172a;
+  font-family: "Poppins", sans-serif;
+}
+
+.city-card {
+  background: var(--card);
+  color: #f8fafc;
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.city-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.city-footer {
+  background: #0c2c42;
+  color: #f8fafc;
+  padding: 2rem 0;
+}

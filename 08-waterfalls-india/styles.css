@@ -1,0 +1,50 @@
+:root {
+  --nav: #0f4c5c;
+  --hero: linear-gradient(135deg, #7bdff2, #b2f7ef);
+  --bg: #f0fdfa;
+  --card: #ffffff;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+  background: var(--bg);
+  color: #0f172a;
+}
+
+.falls-nav {
+  background: var(--nav);
+}
+
+.hero {
+  background: var(--hero);
+  color: #0f172a;
+  padding: 3.5rem 0 3rem;
+}
+
+.section-title {
+  font-family: "Cinzel", serif;
+}
+
+.falls-card {
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.falls-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.reach-banner {
+  background: #cffafe;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.falls-footer {
+  background: #0f4c5c;
+  color: #e0f2fe;
+  padding: 1.5rem 0;
+}

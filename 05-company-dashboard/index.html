@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Company Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark company-nav">
+      <div class="container">
+        <a class="navbar-brand" href="#">NovaTech HQ</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#companyNav" aria-controls="companyNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="companyNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Overview</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Teams</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Insights</a></li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search reports" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <header class="company-hero">
+      <div class="container">
+        <h1 class="display-5">Company Performance Dashboard</h1>
+        <p>Revenue growth, team health, and delivery velocity.</p>
+      </div>
+    </header>
+
+    <main class="container my-5">
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="stat-card">
+            <h6>Revenue</h6>
+            <h3>₹ 12.4Cr</h3>
+            <p>Q2 +18%</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stat-card">
+            <h6>Projects</h6>
+            <h3>24</h3>
+            <p>6 launching soon</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stat-card">
+            <h6>Net Promoter</h6>
+            <h3>62</h3>
+            <p>Customer delight high</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stat-card">
+            <h6>Team Health</h6>
+            <h3>8.6</h3>
+            <p>Well-being index</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-4 mt-4">
+        <div class="col-lg-6">
+          <div class="panel">
+            <h5>Top Initiatives</h5>
+            <ul class="list-unstyled mt-3">
+              <li>AI Customer Support Suite</li>
+              <li>Edge Analytics Platform</li>
+              <li>Global Expansion - SEA</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="panel">
+            <h5>Department Pulse</h5>
+            <div class="pulse">Engineering - 92%</div>
+            <div class="pulse">Product - 88%</div>
+            <div class="pulse">Sales - 84%</div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="company-footer text-center">
+      <small>© <span id="year"></span> NovaTech</small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

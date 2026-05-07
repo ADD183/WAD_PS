@@ -1,0 +1,41 @@
+:root {
+  --nav: #0f172a;
+  --accent: #38bdf8;
+  --bg: #0b0f1f;
+  --card: #111827;
+}
+
+body {
+  font-family: "Quattrocento Sans", sans-serif;
+  background: var(--bg);
+  color: #e2e8f0;
+}
+
+.flight-nav {
+  background: var(--nav);
+}
+
+.flight-hero {
+  background: linear-gradient(120deg, #38bdf8, #0ea5e9);
+  color: #06203b;
+  padding: 3.5rem 0 3rem;
+}
+
+.section-title {
+  font-family: "Kanit", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.flight-card {
+  background: var(--card);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+}
+
+.flight-footer {
+  background: #0f172a;
+  color: #94a3b8;
+  padding: 1.5rem 0;
+}

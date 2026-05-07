@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Two Tables - Student Results</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="hero text-center">
+      <h1 class="display-5">Student Results Overview</h1>
+      <p>Pass/Fail status and CGPA side by side</p>
+    </header>
+
+    <main class="container my-5">
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="table-card">
+            <h3>Result Status</h3>
+            <table class="table table-striped">
+              <thead>
+                <tr><th>Student Name</th><th>Result</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Aisha Rao</td><td class="pass">Pass</td></tr>
+                <tr><td>Rohan Mehta</td><td class="pass">Pass</td></tr>
+                <tr><td>Neha Singh</td><td class="fail">Fail</td></tr>
+                <tr><td>Vikram Patil</td><td class="pass">Pass</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="table-card">
+            <h3>CGPA</h3>
+            <table class="table table-striped">
+              <thead>
+                <tr><th>Student Name</th><th>CGPA</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Aisha Rao</td><td>8.9</td></tr>
+                <tr><td>Rohan Mehta</td><td>9.2</td></tr>
+                <tr><td>Neha Singh</td><td>6.4</td></tr>
+                <tr><td>Vikram Patil</td><td>8.1</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="text-center footer">
+      <small>© 2026 Student Records</small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

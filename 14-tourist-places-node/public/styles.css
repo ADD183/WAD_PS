@@ -1,0 +1,31 @@
+:root {
+  --nav: #0f172a;
+  --hero: linear-gradient(135deg, #facc15, #f97316);
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+  background: #fff7ed;
+  color: #111827;
+}
+
+.tourism-nav {
+  background: var(--nav);
+}
+
+.hero {
+  background: var(--hero);
+  color: #1f2937;
+  padding: 3.5rem 0 3rem;
+}
+
+.carousel-item img {
+  height: 420px;
+  object-fit: cover;
+}
+
+.tourism-footer {
+  background: #0f172a;
+  color: #fde68a;
+  padding: 1.5rem 0;
+}

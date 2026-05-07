@@ -1,0 +1,50 @@
+:root {
+  --nav: #1b1b1f;
+  --accent: #22c55e;
+  --bg: #f4f2ed;
+  --card: #ffffff;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  background: var(--bg);
+  color: #1f2937;
+}
+
+.company-nav {
+  background: var(--nav);
+}
+
+.company-hero {
+  background: linear-gradient(130deg, #22c55e, #86efac);
+  color: #0f172a;
+  padding: 3.5rem 0 3rem;
+}
+
+.stat-card,
+.panel {
+  background: var(--card);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.stat-card h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.75rem;
+  color: #16a34a;
+}
+
+.pulse {
+  background: #e2f7e9;
+  padding: 0.5rem 0.75rem;
+  border-radius: 999px;
+  margin-top: 0.6rem;
+}
+
+.company-footer {
+  background: #1b1b1f;
+  color: #d1d5db;
+  padding: 1.5rem 0;
+}

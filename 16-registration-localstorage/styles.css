@@ -1,0 +1,25 @@
+:root {
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --accent: #2563eb;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background: var(--bg);
+  color: #0f172a;
+}
+
+h1 {
+  font-family: "Yeseva One", serif;
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.12);
+}
+
+.btn-primary {
+  background: var(--accent);
+  border: none;
+}

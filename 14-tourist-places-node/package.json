@@ -1,0 +1,13 @@
+{
+  "name": "tourist-places-node",
+  "version": "1.0.0",
+  "description": "Static tourist places site served with Express",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "5.2.1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "two-tables-node",
+  "version": "1.0.0",
+  "description": "Two tables served with Express",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "5.2.1"
+  }
+}

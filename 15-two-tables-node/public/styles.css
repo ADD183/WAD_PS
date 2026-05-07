@@ -1,0 +1,39 @@
+:root {
+  --bg: #f5f3ff;
+  --card: #ffffff;
+  --accent: #7c3aed;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background: var(--bg);
+  color: #1f2937;
+}
+
+.hero {
+  background: linear-gradient(135deg, #c4b5fd, #a78bfa);
+  padding: 3rem 0;
+}
+
+.table-card {
+  background: var(--card);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.pass {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.fail {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.footer {
+  background: #4c1d95;
+  color: #ede9fe;
+  padding: 1.5rem 0;
+}

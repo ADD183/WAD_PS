@@ -1,0 +1,45 @@
+:root {
+  --nav: #0f172a;
+  --hero: linear-gradient(135deg, #fef3c7, #fbbf24);
+  --bg: #fffbeb;
+  --card: #ffffff;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background: var(--bg);
+  color: #111827;
+}
+
+.estate-nav {
+  background: var(--nav);
+}
+
+.hero {
+  background: var(--hero);
+  color: #1f2937;
+  padding: 3.5rem 0 3rem;
+}
+
+.estate-card {
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.estate-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.price {
+  font-weight: 700;
+  color: #b45309;
+}
+
+.estate-footer {
+  background: #0f172a;
+  color: #fde68a;
+  padding: 1.5rem 0;
+}

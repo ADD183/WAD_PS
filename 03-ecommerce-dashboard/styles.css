@@ -1,0 +1,51 @@
+:root {
+  --nav: #111827;
+  --accent: #f97316;
+  --bg: #0f172a;
+  --card: #1f2937;
+  --ink: #f8fafc;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background: #0b1324;
+  color: var(--ink);
+}
+
+.shop-nav {
+  background: var(--nav);
+}
+
+.shop-hero {
+  background: linear-gradient(135deg, #f97316, #fb7185);
+  color: #1f2937;
+  padding: 3.5rem 0 3rem;
+}
+
+.metric-card,
+.panel {
+  background: var(--card);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.metric-card h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.75rem;
+  color: #fbbf24;
+}
+
+.status-pill {
+  background: #111827;
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  margin-top: 0.6rem;
+}
+
+.shop-footer {
+  background: #111827;
+  color: #9ca3af;
+  padding: 1.5rem 0;
+}

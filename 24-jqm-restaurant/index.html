@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  </head>
+  <body>
+    <div data-role="page" id="home">
+      <div data-role="header">
+        <h1>Restaurant Menu</h1>
+      </div>
+      <div role="main" class="ui-content">
+        <ul data-role="listview" data-inset="true">
+          <li><a href="#menu-pizza">Woodfired Pizza</a></li>
+          <li><a href="#menu-pasta">Creamy Pasta</a></li>
+          <li><a href="#menu-dessert">Chocolate Dessert</a></li>
+        </ul>
+      </div>
+      <div data-role="footer"><h4>Fresh & Tasty</h4></div>
+    </div>
+
+    <div data-role="page" id="menu-pizza">
+      <div data-role="header" data-add-back-btn="true"><h1>Pizza</h1></div>
+      <div role="main" class="ui-content">
+        <img src="https://images.unsplash.com/photo-1548365328-8b849e6f2f24?q=80&w=1200&auto=format&fit=crop" alt="Pizza" style="width:100%;border-radius:12px;">
+        <p>Smoky crust with fresh basil and mozzarella.</p>
+      </div>
+    </div>
+
+    <div data-role="page" id="menu-pasta">
+      <div data-role="header" data-add-back-btn="true"><h1>Pasta</h1></div>
+      <div role="main" class="ui-content">
+        <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e?q=80&w=1200&auto=format&fit=crop" alt="Pasta" style="width:100%;border-radius:12px;">
+        <p>Rich cream sauce with herbs and mushrooms.</p>
+      </div>
+    </div>
+
+    <div data-role="page" id="menu-dessert">
+      <div data-role="header" data-add-back-btn="true"><h1>Dessert</h1></div>
+      <div role="main" class="ui-content">
+        <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?q=80&w=1200&auto=format&fit=crop" alt="Dessert" style="width:100%;border-radius:12px;">
+        <p>Chocolate lava cake with vanilla ice cream.</p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+:root {
+  --nav: #991b1b;
+  --hero: linear-gradient(135deg, #f97316, #dc2626);
+  --bg: #fff7ed;
+  --card: #ffffff;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: var(--bg);
+  color: #111827;
+}
+
+.emergency-nav {
+  background: var(--nav);
+}
+
+.hero {
+  background: var(--hero);
+  color: #1f2937;
+  padding: 3.5rem 0 3rem;
+}
+
+.section-title {
+  font-family: "Libre Baskerville", serif;
+}
+
+.service-card {
+  background: var(--card);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.response-banner {
+  background: #fecaca;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.emergency-footer {
+  background: #7f1d1d;
+  color: #fef2f2;
+  padding: 1.5rem 0;
+}
+
+.contact-body {
+  background: #fff1f2;
+}

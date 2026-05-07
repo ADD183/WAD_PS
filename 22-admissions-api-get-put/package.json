@@ -1,0 +1,15 @@
+{
+  "name": "admissions-api-get-put",
+  "version": "1.0.0",
+  "description": "GET and PUT API for college admissions",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "5.2.1",
+    "mongoose": "^8.0.0",
+    "dotenv": "^16.4.5"
+  }
+}

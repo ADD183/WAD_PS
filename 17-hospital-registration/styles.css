@@ -1,0 +1,46 @@
+:root {
+  --nav: #1e3a8a;
+  --hero: linear-gradient(135deg, #93c5fd, #bae6fd);
+  --bg: #f8fafc;
+  --card: #ffffff;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  background: var(--bg);
+  color: #0f172a;
+}
+
+.hospital-nav {
+  background: var(--nav);
+}
+
+.hero {
+  background: var(--hero);
+  color: #0f172a;
+  padding: 3.5rem 0 3rem;
+}
+
+.section-title {
+  font-family: "Prata", serif;
+}
+
+.form-card,
+.count-card {
+  background: var(--card);
+  border-radius: 1rem;
+  padding: 1.75rem;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.12);
+}
+
+.count {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1d4ed8;
+}
+
+.hospital-footer {
+  background: #1e3a8a;
+  color: #dbeafe;
+  padding: 1.5rem 0;
+}

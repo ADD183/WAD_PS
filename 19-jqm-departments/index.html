@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Departments - jQuery Mobile</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  </head>
+  <body>
+    <div data-role="page" id="home">
+      <div data-role="header">
+        <h1>Departments</h1>
+      </div>
+      <div role="main" class="ui-content">
+        <div class="ui-grid-d">
+          <div class="ui-block-a"><a href="#dept-cse" class="ui-btn ui-corner-all">CSE</a></div>
+          <div class="ui-block-b"><a href="#dept-it" class="ui-btn ui-corner-all">IT</a></div>
+          <div class="ui-block-c"><a href="#dept-ece" class="ui-btn ui-corner-all">ECE</a></div>
+          <div class="ui-block-d"><a href="#dept-mech" class="ui-btn ui-corner-all">MECH</a></div>
+          <div class="ui-block-e"><a href="#dept-civil" class="ui-btn ui-corner-all">CIVIL</a></div>
+        </div>
+      </div>
+      <div data-role="footer">
+        <h4>College Portal</h4>
+      </div>
+    </div>
+
+    <div data-role="page" id="dept-cse">
+      <div data-role="header" data-add-back-btn="true"><h1>CSE</h1></div>
+      <div role="main" class="ui-content"><p>Computer Science: AI, Systems, and Software.</p></div>
+    </div>
+    <div data-role="page" id="dept-it">
+      <div data-role="header" data-add-back-btn="true"><h1>IT</h1></div>
+      <div role="main" class="ui-content"><p>Information Technology: Web, Cloud, and Networks.</p></div>
+    </div>
+    <div data-role="page" id="dept-ece">
+      <div data-role="header" data-add-back-btn="true"><h1>ECE</h1></div>
+      <div role="main" class="ui-content"><p>Electronics & Communication: Circuits and Signals.</p></div>
+    </div>
+    <div data-role="page" id="dept-mech">
+      <div data-role="header" data-add-back-btn="true"><h1>Mechanical</h1></div>
+      <div role="main" class="ui-content"><p>Mechanical: Design, Production, and Thermodynamics.</p></div>
+    </div>
+    <div data-role="page" id="dept-civil">
+      <div data-role="header" data-add-back-btn="true"><h1>Civil</h1></div>
+      <div role="main" class="ui-content"><p>Civil: Structures, Geotech, and Construction.</p></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Real Estate Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark estate-nav">
+      <div class="container">
+        <a class="navbar-brand" href="#">UrbanNest Realty</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#estateNav" aria-controls="estateNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="estateNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#listings">Listings</a></li>
+            <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="container">
+        <h1 class="display-4">Real Estate Portal</h1>
+        <p>Find premium homes and commercial spaces in the city.</p>
+      </div>
+    </header>
+
+    <main class="container my-5" id="listings">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card estate-card">
+            <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="Penthouse">
+            <div class="card-body">
+              <h5>Skyline Penthouse</h5>
+              <p>Address: Koregaon Park, Pune</p>
+              <p class="price">₹ 2.4 Cr</p>
+              <button class="btn btn-outline-dark">Contact Us</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card estate-card">
+            <img src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="Villa">
+            <div class="card-body">
+              <h5>Garden Villa</h5>
+              <p>Address: Baner, Pune</p>
+              <p class="price">₹ 1.6 Cr</p>
+              <button class="btn btn-outline-dark">Contact Us</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card estate-card">
+            <img src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="Office space">
+            <div class="card-body">
+              <h5>Business Office</h5>
+              <p>Address: Hinjewadi, Pune</p>
+              <p class="price">₹ 3.1 Cr</p>
+              <button class="btn btn-outline-dark">Contact Us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="estate-footer text-center">
+      <small>© <span id="year"></span> UrbanNest Realty</small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

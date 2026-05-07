@@ -1,0 +1,63 @@
+:root {
+  --nav: #166534;
+  --hero: linear-gradient(135deg, #bef264, #4d7c0f);
+  --bg: #f7fee7;
+  --card: #ffffff;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background: var(--bg);
+  color: #1f2937;
+}
+
+.farm-nav {
+  background: var(--nav);
+}
+
+.hero {
+  background: var(--hero);
+  color: #1f2937;
+  padding: 3.5rem 0 3rem;
+}
+
+.section-title {
+  font-family: "Playfair Display", serif;
+}
+
+.farm-card {
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.14);
+  animation: floatIn 0.8s ease-out forwards;
+}
+
+.farm-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.offer-banner {
+  background: #dcfce7;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.farm-footer {
+  background: #166534;
+  color: #dcfce7;
+  padding: 1.5rem 0;
+}
+
+@keyframes floatIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

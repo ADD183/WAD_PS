@@ -1,0 +1,56 @@
+:root {
+  --nav: #065f46;
+  --hero: linear-gradient(135deg, #fbbf24, #f97316);
+  --bg: #fefce8;
+  --card: #ffffff;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background: var(--bg);
+  color: #1f2937;
+}
+
+.pet-nav {
+  background: var(--nav);
+}
+
+.hero {
+  background: var(--hero);
+  color: #1f2937;
+  padding: 3.5rem 0 3rem;
+}
+
+.section-title {
+  font-family: "Yeseva One", serif;
+}
+
+.service-card {
+  background: var(--card);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.plan-banner {
+  background: #bbf7d0;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.pet-footer {
+  background: #065f46;
+  color: #ecfdf5;
+  padding: 1.5rem 0;
+}
+
+.contact-body {
+  background: #fffbeb;
+}

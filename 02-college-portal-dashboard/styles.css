@@ -1,0 +1,56 @@
+:root {
+  --nav: #06283d;
+  --accent: #00b4d8;
+  --bg: #f3f7fb;
+  --card: #ffffff;
+  --ink: #0f172a;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.portal-nav {
+  background: var(--nav);
+}
+
+.portal-hero {
+  background: linear-gradient(135deg, #00b4d8, #90e0ef);
+  color: #05263b;
+  padding: 3.5rem 0 3rem;
+}
+
+.section-title {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.dashboard-card {
+  background: var(--card);
+  border-radius: 1rem;
+  padding: 1.75rem;
+  box-shadow: 0 12px 25px rgba(5, 38, 59, 0.1);
+}
+
+.btn-ghost {
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  background: transparent;
+}
+
+.quick-link {
+  background: #fff;
+  border-left: 4px solid var(--accent);
+  padding: 1rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+}
+
+.portal-footer {
+  background: #06283d;
+  color: #d7f3ff;
+  padding: 1.5rem 0;
+}
