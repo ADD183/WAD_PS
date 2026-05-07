@@ -1,0 +1,13 @@
+<section class="card">
+  <h2>Login</h2>
+  <form (ngSubmit)="login()" #loginForm="ngForm">
+    <label>Email</label>
+    <input type="email" [(ngModel)]="email" name="email" placeholder="name@example.com" required>
+
+    <label>Password</label>
+    <input type="password" [(ngModel)]="password" name="password" placeholder="Your password" required>
+
+    <button type="submit" [disabled]="!loginForm.form.valid">Login</button>
+  </form>
+  <p class="message">{{ message }}</p>
+</section>

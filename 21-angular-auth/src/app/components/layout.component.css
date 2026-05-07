@@ -1,0 +1,22 @@
+.top-nav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background: #0f172a;
+}
+
+.top-nav a {
+  color: #e2e8f0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.top-nav a.active {
+  color: #fbbf24;
+}
+
+.page {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}

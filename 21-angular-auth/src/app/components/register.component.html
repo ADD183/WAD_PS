@@ -1,0 +1,22 @@
+<section class="card">
+  <h2>Register</h2>
+  <form (ngSubmit)="register()" #regForm="ngForm">
+    <label>Full Name</label>
+    <input type="text" [(ngModel)]="model.fullName" name="fullName" placeholder="Enter full name" required>
+
+    <label>Email</label>
+    <input type="email" [(ngModel)]="model.email" name="email" placeholder="name@example.com" required>
+
+    <label>Password</label>
+    <input type="password" [(ngModel)]="model.password" name="password" placeholder="Create a password" required>
+
+    <label>Department</label>
+    <input type="text" [(ngModel)]="model.department" name="department" placeholder="IT / CSE / ECE" required>
+
+    <label>Phone</label>
+    <input type="text" [(ngModel)]="model.phone" name="phone" placeholder="10-digit number" required>
+
+    <button type="submit" [disabled]="!regForm.form.valid">Register</button>
+  </form>
+  <p class="message">{{ message }}</p>
+</section>
