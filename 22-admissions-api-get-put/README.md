@@ -26,3 +26,25 @@ PS C:\Users\Admin\Desktop\WAD PS\22-admissions-api-get-put> npm start
 
 Server running on http://localhost:3000
 MongoDB connected
+
+
+Step 2: Insert Command in MongoDB Atlas
+Step 3: Postman commands for 22
+
+GET all
+
+Method: GET
+URL: http://localhost:3000/api/applicants
+GET by id
+
+Method: GET
+URL: http://localhost:3000/api/applicants/<id>
+
+PUT update
+
+Method: PUT
+URL: http://localhost:3000/api/applicants/<id>
+Body → raw → JSON:
+{
+  "status": "approved"
+}
